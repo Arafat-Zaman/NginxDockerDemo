@@ -1,0 +1,6 @@
+@NginxDockerDemo_HostAddress = http://localhost:5287
+
+GET {{NginxDockerDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
